@@ -45,25 +45,16 @@ if (strlen($_SESSION['login']) == 0) {
     <?php include("includes/sidebar.php"); ?>
     <section id="main-content">
       <section class="wrapper">
-
         <div class="row">
           <div class="col-lg-9 main-chart">
-
-
             <div class="col-md-2 col-sm-2 box0">
               <div>
-
               </div>
             </div>
-
-
-
-
             <div class="col-md-2 col-sm-2 box0">
               <div class="box1">
                 <span class="li_news"></span>
                 <?php
-
                   $rt = mysqli_query($con, "SELECT * FROM tblcomplaints where userId='" . $_SESSION['id'] . "' and status is null");
                   $num1 = mysqli_num_rows($rt); { ?>
                 <h3><?php echo htmlentities($num1); ?></h3>
@@ -71,8 +62,6 @@ if (strlen($_SESSION['login']) == 0) {
               <p><?php echo htmlentities($num1); ?> Complaints not Process yet</p>
             </div>
             <?php } ?>
-
-
             <div class="col-md-2 col-sm-2 box0">
               <div class="box1">
                 <span class="li_news"></span>
@@ -97,17 +86,8 @@ if (strlen($_SESSION['login']) == 0) {
               </div>
               <p><?php echo htmlentities($num1); ?> Complaint has been closed</p>
             </div>
-
             <?php } ?>
-
-
           </div><!-- /row mt -->
-
-
-
-
-
-
       </section>
     </section>
     <?php include("includes/footer.php"); ?>
@@ -121,14 +101,10 @@ if (strlen($_SESSION['login']) == 0) {
   <script src="assets/js/jquery.scrollTo.min.js"></script>
   <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
   <script src="assets/js/jquery.sparkline.js"></script>
-
-
   <!--common script for all pages-->
   <script src="assets/js/common-scripts.js"></script>
-
   <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
   <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
-
   <!--script for this page-->
   <script src="assets/js/sparkline-chart.js"></script>
   <script src="assets/js/zabuto_calendar.js"></script>
