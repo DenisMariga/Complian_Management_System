@@ -40,40 +40,26 @@ if (isset($_POST['submit'])) {
   <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'
     rel='stylesheet'>
 </head>
-
 <body>
-
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
           <i class="icon-reorder shaded"></i>
         </a>
-
         <a class="brand" href="index.html">
           CMS | Admin
         </a>
-
         <div class="nav-collapse collapse navbar-inverse-collapse">
-
           <ul class="nav pull-right">
-
             <li><a href="http://localhost/complaint management system/cms/">
                 Back to Portal
-
               </a></li>
-
-
-
-
           </ul>
         </div><!-- /.nav-collapse -->
       </div>
     </div><!-- /navbar-inner -->
   </div><!-- /navbar -->
-
-
-
   <div class="wrapper">
     <div class="container">
       <div class="row">
@@ -100,7 +86,6 @@ if (isset($_POST['submit'])) {
               <div class="control-group">
                 <div class="controls clearfix">
                   <button type="submit" class="btn btn-primary pull-right" name="submit">Login</button>
-
                 </div>
               </div>
             </div>
@@ -110,8 +95,6 @@ if (isset($_POST['submit'])) {
     </div>
   </div>
   <!--/.wrapper-->
-
-
   <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
   <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
   <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
